@@ -1,0 +1,31 @@
+{
+  "productos": {
+    "papa": {
+      "nombre": "Papa",
+      "unidad": "bulto (50kg)",
+      "mercados": {
+        "corabastos": {"precio": 45000, "variacion": 5},
+        "kennedy": {"precio": 47000, "variacion": -2},
+        "paloquemao": {"precio": 46500, "variacion": 3}
+      }
+    },
+    "tomate": {
+      "nombre": "Tomate",
+      "unidad": "canastilla (25kg)",
+      "mercados": {
+        "corabastos": {"precio": 35000, "variacion": 8},
+        "kennedy": {"precio": 36000, "variacion": 12},
+        "paloquemao": {"precio": 34500, "variacion": 6}
+      }
+    },
+    "cebolla": {
+      "nombre": "Cebolla Cabezona",
+      "unidad": "bulto (50kg)",
+      "mercados": {
+        "corabastos": {"precio": 55000, "variacion": -3},
+        "kennedy": {"precio": 56000, "variacion": -1},
+        "paloquemao": {"precio": 54000, "variacion": -5}
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "plagas": {
+    "broca_cafe": {
+      "nombre": "Broca del Café",
+      "descripcion": "Pequeño escarabajo que perfora los granos de café",
+      "tratamiento_organico": "Aplicar hongos entomopatógenos (Beauveria bassiana)",
+      "tratamiento_quimico": "Insecticida específico para broca",
+      "sintomas": ["Agujeros pequeños en granos", "Polvillo café", "Granos caídos"],
+      "cultivos_afectados": ["cafe"]
+    },
+    "gusano_cogollero": {
+      "nombre": "Gusano Cogollero",
+      "descripcion": "Larva que se alimenta del cogollo de las plantas",
+      "tratamiento_organico": "Bacillus thuringiensis, aceite de neem",
+      "tratamiento_quimico": "Insecticida a base de clorantraniliprole",
+      "sintomas": ["Hojas perforadas", "Cogollo dañado", "Excremento en hojas"],
+      "cultivos_afectados": ["maiz", "arroz", "sorgo"]
+    }
+  }
+}
