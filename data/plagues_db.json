@@ -2,18 +2,34 @@
   "plagas": {
     "broca_cafe": {
       "nombre": "Broca del Café",
-      "descripcion": "Pequeño escarabajo que perfora los granos de café",
-      "tratamiento_organico": "Aplicar hongos entomopatógenos (Beauveria bassiana)",
-      "tratamiento_quimico": "Insecticida específico para broca",
-      "sintomas": ["Agujeros pequeños en granos", "Polvillo café", "Granos caídos"],
+      "descripcion": "Pequeño escarabajo que perfora los granos de café, causando su caída prematura y pérdida de calidad.",
+      "tratamiento_organico": "Liberación del parasitoide Cephalonomia stephanoderis, trampas con atrayentes y aplicación de hongos como Beauveria bassiana.",
+      "tratamiento_quimico": "Insecticidas a base de Clorpirifos o Fentión, aplicados directamente al fruto en las épocas de mayor infestación.",
+      "sintomas": ["Pequeños orificios en los granos de café", "Polvillo blanco o café saliendo de los orificios", "Caída de frutos jóvenes"],
+      "cultivos_afectados": ["cafe"]
+    },
+    "roya_cafe": {
+      "nombre": "Roya del Café",
+      "descripcion": "Hongo (Hemileia vastatrix) que ataca las hojas del cafeto, causando defoliación severa y reduciendo la capacidad fotosintética.",
+      "tratamiento_organico": "Aplicación de fungicidas a base de cobre (oxicloruro de cobre) o caldos sulfocálcicos. Fomentar la ventilación en el cultivo.",
+      "tratamiento_quimico": "Fungicidas sistémicos como Triazoles (Ciproconazol, Tebuconazol) o Estrobilurinas (Azoxistrobina).",
+      "sintomas": ["Manchas amarillas o anaranjadas en el haz de las hojas", "Polvo anaranjado (esporas) en el envés de las hojas", "Defoliación severa"],
+      "cultivos_afectados": ["cafe"]
+    },
+    "ojo_gallo_cafe": {
+      "nombre": "Ojo de Gallo",
+      "descripcion": "Enfermedad causada por el hongo Mycena citricolor, que provoca lesiones circulares en hojas, frutos y ramas.",
+      "tratamiento_organico": "Podas sanitarias para eliminar el material afectado y mejorar la aireación. Uso de fungicidas cúpricos.",
+      "tratamiento_quimico": "Fungicidas de contacto como Clorotalonil o sistémicos del grupo de los Triazoles.",
+      "sintomas": ["Manchas circulares de color pardo claro con un borde oscuro y un punto central blanquecino", "Las lesiones parecen un 'ojo'", "Caída de hojas y frutos"],
       "cultivos_afectados": ["cafe"]
     },
     "gusano_cogollero": {
       "nombre": "Gusano Cogollero",
-      "descripcion": "Larva que se alimenta del cogollo de las plantas",
-      "tratamiento_organico": "Bacillus thuringiensis, aceite de neem",
-      "tratamiento_quimico": "Insecticida a base de clorantraniliprole",
-      "sintomas": ["Hojas perforadas", "Cogollo dañado", "Excremento en hojas"],
+      "descripcion": "Larva de polilla (Spodoptera frugiperda) que se alimenta del cogollo de las plantas, especialmente maíz.",
+      "tratamiento_organico": "Aplicación de Bacillus thuringiensis (Bt), uso de trampas de feromonas y liberación de avispas parasitoides.",
+      "tratamiento_quimico": "Insecticidas a base de Clorantraniliprol o Spinetoram.",
+      "sintomas": ["Hojas jóvenes perforadas y rasgadas", "Aserrín fresco en el cogollo", "Daño en espigas y mazorcas"],
       "cultivos_afectados": ["maiz", "arroz", "sorgo"]
     }
   }

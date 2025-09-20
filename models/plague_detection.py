@@ -10,9 +10,15 @@ class PlagueDetector:
     
     def analizar_imagen(self, imagen):
         """Simula análisis de imagen con IA"""
-        # Por ahora, simulamos con resultados aleatorios
-        plagas_disponibles = list(self.plagas_db['plagas'].keys())
-        plaga_detectada = random.choice(plagas_disponibles)
+        # Simulación mejorada: selecciona aleatoriamente solo plagas del café
+        plagas_cafe = [id for id, detalles in self.plagas_db['plagas'].items()
+                       if "cafe" in detalles.get("cultivos_afectados", [])]
+        
+        if not plagas_cafe:
+            # Fallback por si no hay plagas de café definidas
+            plagas_cafe = list(self.plagas_db['plagas'].keys())
+
+        plaga_detectada = random.choice(plagas_cafe)
         confianza = random.uniform(0.7, 0.95)
         
         return {
